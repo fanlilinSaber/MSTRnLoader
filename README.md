@@ -5,6 +5,7 @@ react-native 加载更新模块
 
 #### 软件架构
 软件架构说明
+使用此模块，原工程必须导入 React、react-native-update，因为兼容性的问题，这边暂时不做自动导入 rn
 
 
 #### 安装教程

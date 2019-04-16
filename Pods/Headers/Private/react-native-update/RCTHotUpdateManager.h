@@ -1,0 +1,1 @@
+../../../../node_modules/react-native-update/ios/RCTHotUpdate/RCTHotUpdateManager.h
