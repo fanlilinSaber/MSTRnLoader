@@ -1,0 +1,22 @@
+{
+  "name": "react-native-update",
+  "version": "5.1.6",
+  "summary": "hot update for react-native",
+  "authors": "author (https://github.com/reactnativecn)",
+  "homepage": "https://github.com/reactnativecn/react-native-pushy",
+  "license": "MIT",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/reactnativecn/react-native-pushy.git",
+    "tag": "5.1.6"
+  },
+  "source_files": "ios/**/*.{h,m,c}",
+  "libraries": "bz2",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

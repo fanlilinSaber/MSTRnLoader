@@ -1,0 +1,1 @@
+../../../RNVectorIcons/RNVectorIconsManager/RNVectorIconsManager.h
