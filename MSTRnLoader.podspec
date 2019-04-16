@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
   spec.source_files = "Sources/**/*.{h,m}"
   spec.resources = "Sources/*.bundle"
   spec.libraries = "bz2"
+  spec.dependency "React"
 end
