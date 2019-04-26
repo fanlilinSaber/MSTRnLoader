@@ -31,7 +31,7 @@ pod 'DoubleConversion', :podspec => './node_modules/react-native/third-party-pod
 pod 'glog', :podspec => './node_modules/react-native/third-party-podspecs/glog.podspec'
 pod 'Folly', :podspec => './node_modules/react-native/third-party-podspecs/Folly.podspec'
 # 热修复
-pod 'react-native-update' , :path => './node_modules/react-native-update'
+#pod 'react-native-update' , :path => './node_modules/react-native-update'
 
 pod 'RNGestureHandler' , :podspec => './node_modules/react-native-gesture-handler/RNGestureHandler.podspec'
 
@@ -43,6 +43,10 @@ pod 'react-native-video' , :podspec => './node_modules/react-native-video/react-
 
 pod 'react-native-webview' , :podspec => './node_modules/react-native-webview/react-native-webview.podspec'
 
+pod 'YTKNetwork'
+
+pod 'SSZipArchive'
+
   # Pods for MSTRnLoader
 
 end
@@ -52,5 +56,11 @@ target 'MSTRnLoader iOS Example' do
   # use_frameworks!
 
   # Pods for MSTRnLoader iOS Example
+  
+  pod 'YTKNetwork'
+  
+  pod 'Masonry'
+  
+  pod 'SDWebImage'
 
 end
