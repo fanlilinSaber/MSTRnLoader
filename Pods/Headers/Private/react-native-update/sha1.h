@@ -1,1 +1,0 @@
-../../../../node_modules/react-native-update/ios/RCTHotUpdate/SSZipArchive/aes/sha1.h

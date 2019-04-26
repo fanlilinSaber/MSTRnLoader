@@ -7,26 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48043BBF226D970F00EFD063 /* MSTRnLoaderMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 48043BBE226D970F00EFD063 /* MSTRnLoaderMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481207D2226EAAEA002F60FB /* MSTFileDownloaderError.h in Headers */ = {isa = PBXBuildFile; fileRef = 481207D0226EAAEA002F60FB /* MSTFileDownloaderError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481207D3226EAAEA002F60FB /* MSTFileDownloaderError.m in Sources */ = {isa = PBXBuildFile; fileRef = 481207D1226EAAEA002F60FB /* MSTFileDownloaderError.m */; };
+		481207D5226ED9C8002F60FB /* MSTWebFileOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 481207D4226ED9C8002F60FB /* MSTWebFileOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481207D8226EF75E002F60FB /* RNListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 481207D7226EF75E002F60FB /* RNListCell.m */; };
+		481207DB226F03F0002F60FB /* RNListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 481207DA226F03F0002F60FB /* RNListModel.m */; };
+		48512E6F2266D09C003C0CAF /* PWPersistenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48512E6D2266D09C003C0CAF /* PWPersistenceController.m */; };
+		48512E702266D09C003C0CAF /* PWAPIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48512E6E2266D09C003C0CAF /* PWAPIController.m */; };
+		48512E732266D1FD003C0CAF /* MSTAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 48512E722266D1FD003C0CAF /* MSTAPI.m */; };
+		48512E762266D3FF003C0CAF /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 48512E752266D3FF003C0CAF /* NSString+Additions.m */; };
+		48512E782266D4A5003C0CAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48512E772266D4A5003C0CAF /* CoreGraphics.framework */; };
+		48512E7C22670A6F003C0CAF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48512E7A22670A6F003C0CAF /* Model.xcdatamodeld */; };
+		4855AB122271799E00161669 /* MMALoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4855AB102271799E00161669 /* MMALoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4855AB132271799E00161669 /* MMALoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4855AB112271799E00161669 /* MMALoadersManager.m */; };
+		4855AB1622717F0A00161669 /* MSTFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4855AB1422717F0A00161669 /* MSTFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4855AB1722717F0A00161669 /* MSTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4855AB1522717F0A00161669 /* MSTFileManager.m */; };
+		4855AB1C22719D6600161669 /* bsdpatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 4855AB1A22719D6600161669 /* bsdpatch.c */; };
+		4855AB1D22719D6600161669 /* bsdpatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4855AB1B22719D6600161669 /* bsdpatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4855AB2022719E5900161669 /* BSDIFF.h in Headers */ = {isa = PBXBuildFile; fileRef = 4855AB1E22719E5900161669 /* BSDIFF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4855AB2122719E5900161669 /* BSDIFF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4855AB1F22719E5900161669 /* BSDIFF.m */; };
+		4855AB222271AFA800161669 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FB5812265CEC100CF570C /* libbz2.tbd */; };
+		4879A82E22696A79000E7412 /* ar_tagging_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4879A82D22696A79000E7412 /* ar_tagging_select@2x.png */; };
+		4879A83922698D47000E7412 /* MSTRnLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FB5402265BD9100CF570C /* MSTRnLoader.framework */; };
+		4879A83A22698D47000E7412 /* MSTRnLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 488FB5402265BD9100CF570C /* MSTRnLoader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4879A8432269C686000E7412 /* MSTFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4879A8412269C686000E7412 /* MSTFileDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4879A8442269C686000E7412 /* MSTFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4879A8422269C686000E7412 /* MSTFileDownloader.m */; };
+		4879A8472269C8DE000E7412 /* MSTFileDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4879A8452269C8DE000E7412 /* MSTFileDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4879A8482269C8DE000E7412 /* MSTFileDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4879A8462269C8DE000E7412 /* MSTFileDownloaderConfig.m */; };
+		488CD725226D548C00A6C228 /* MSTFileDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 488CD723226D548C00A6C228 /* MSTFileDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488CD726226D548C00A6C228 /* MSTFileDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 488CD724226D548C00A6C228 /* MSTFileDownloaderOperation.m */; };
+		488CD729226D564600A6C228 /* MSTFileDownloadToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 488CD727226D564600A6C228 /* MSTFileDownloadToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488CD72A226D564600A6C228 /* MSTFileDownloadToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 488CD728226D564600A6C228 /* MSTFileDownloadToken.m */; };
 		488FB5532265BDF400CF570C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FB5522265BDF400CF570C /* AppDelegate.m */; };
 		488FB5562265BDF400CF570C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FB5552265BDF400CF570C /* ViewController.m */; };
 		488FB5592265BDF400CF570C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FB5572265BDF400CF570C /* Main.storyboard */; };
 		488FB55B2265BDF600CF570C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488FB55A2265BDF600CF570C /* Assets.xcassets */; };
 		488FB55E2265BDF600CF570C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FB55C2265BDF600CF570C /* LaunchScreen.storyboard */; };
 		488FB5612265BDF600CF570C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FB5602265BDF600CF570C /* main.m */; };
-		488FB56C2265C50C00CF570C /* MSTHotUpdateDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FB5662265C50B00CF570C /* MSTHotUpdateDownloader.m */; };
-		488FB56D2265C50C00CF570C /* MSTHotUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FB5672265C50B00CF570C /* MSTHotUpdateManager.m */; };
-		488FB56E2265C50C00CF570C /* MSTHotUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FB5682265C50B00CF570C /* MSTHotUpdate.m */; };
-		488FB56F2265C50C00CF570C /* MSTHotUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FB5692265C50B00CF570C /* MSTHotUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		488FB5702265C50C00CF570C /* MSTHotUpdateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FB56A2265C50B00CF570C /* MSTHotUpdateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		488FB5712265C50C00CF570C /* MSTHotUpdateDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FB56B2265C50C00CF570C /* MSTHotUpdateDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		488FB5832265DE7500CF570C /* MSTRnLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FB5402265BD9100CF570C /* MSTRnLoader.framework */; };
-		488FB5842265DE7500CF570C /* MSTRnLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 488FB5402265BD9100CF570C /* MSTRnLoader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6951CDDC4C4E50AE09804BB9 /* libPods-MSTRnLoader iOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65BA6880DD7E5DFF2E3D0E4 /* libPods-MSTRnLoader iOS Example.a */; };
 		C51F094B6080E1272F91989F /* libPods-MSTRnLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6D3301797C53E018E25756 /* libPods-MSTRnLoader.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		488FB5852265DE7500CF570C /* PBXContainerItemProxy */ = {
+		4879A83B22698D47000E7412 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 488FB5372265BD9100CF570C /* Project object */;
 			proxyType = 1;
@@ -36,13 +60,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		488FB5872265DE7500CF570C /* Embed Frameworks */ = {
+		4879A83D22698D47000E7412 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				488FB5842265DE7500CF570C /* MSTRnLoader.framework in Embed Frameworks */,
+				4879A83A22698D47000E7412 /* MSTRnLoader.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +75,41 @@
 
 /* Begin PBXFileReference section */
 		47E2110057908DAE2895DD30 /* Pods-MSTRnLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSTRnLoader.debug.xcconfig"; path = "Target Support Files/Pods-MSTRnLoader/Pods-MSTRnLoader.debug.xcconfig"; sourceTree = "<group>"; };
+		48043BBE226D970F00EFD063 /* MSTRnLoaderMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTRnLoaderMacros.h; sourceTree = "<group>"; };
+		481207D0226EAAEA002F60FB /* MSTFileDownloaderError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTFileDownloaderError.h; sourceTree = "<group>"; };
+		481207D1226EAAEA002F60FB /* MSTFileDownloaderError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTFileDownloaderError.m; sourceTree = "<group>"; };
+		481207D4226ED9C8002F60FB /* MSTWebFileOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTWebFileOperation.h; sourceTree = "<group>"; };
+		481207D6226EF75E002F60FB /* RNListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNListCell.h; sourceTree = "<group>"; };
+		481207D7226EF75E002F60FB /* RNListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNListCell.m; sourceTree = "<group>"; };
+		481207D9226F03F0002F60FB /* RNListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNListModel.h; sourceTree = "<group>"; };
+		481207DA226F03F0002F60FB /* RNListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNListModel.m; sourceTree = "<group>"; };
+		48512E6B2266D09C003C0CAF /* PWPersistenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPersistenceController.h; sourceTree = "<group>"; };
+		48512E6C2266D09C003C0CAF /* PWAPIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWAPIController.h; sourceTree = "<group>"; };
+		48512E6D2266D09C003C0CAF /* PWPersistenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPersistenceController.m; sourceTree = "<group>"; };
+		48512E6E2266D09C003C0CAF /* PWAPIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAPIController.m; sourceTree = "<group>"; };
+		48512E712266D1FC003C0CAF /* MSTAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTAPI.h; sourceTree = "<group>"; };
+		48512E722266D1FD003C0CAF /* MSTAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTAPI.m; sourceTree = "<group>"; };
+		48512E742266D3FE003C0CAF /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		48512E752266D3FF003C0CAF /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		48512E772266D4A5003C0CAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48512E7B22670A6F003C0CAF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4855AB102271799E00161669 /* MMALoadersManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMALoadersManager.h; sourceTree = "<group>"; };
+		4855AB112271799E00161669 /* MMALoadersManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMALoadersManager.m; sourceTree = "<group>"; };
+		4855AB1422717F0A00161669 /* MSTFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTFileManager.h; sourceTree = "<group>"; };
+		4855AB1522717F0A00161669 /* MSTFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTFileManager.m; sourceTree = "<group>"; };
+		4855AB1A22719D6600161669 /* bsdpatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bsdpatch.c; sourceTree = "<group>"; };
+		4855AB1B22719D6600161669 /* bsdpatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bsdpatch.h; sourceTree = "<group>"; };
+		4855AB1E22719E5900161669 /* BSDIFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDIFF.h; sourceTree = "<group>"; };
+		4855AB1F22719E5900161669 /* BSDIFF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDIFF.m; sourceTree = "<group>"; };
+		4879A82D22696A79000E7412 /* ar_tagging_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ar_tagging_select@2x.png"; sourceTree = "<group>"; };
+		4879A8412269C686000E7412 /* MSTFileDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTFileDownloader.h; sourceTree = "<group>"; };
+		4879A8422269C686000E7412 /* MSTFileDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTFileDownloader.m; sourceTree = "<group>"; };
+		4879A8452269C8DE000E7412 /* MSTFileDownloaderConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTFileDownloaderConfig.h; sourceTree = "<group>"; };
+		4879A8462269C8DE000E7412 /* MSTFileDownloaderConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTFileDownloaderConfig.m; sourceTree = "<group>"; };
+		488CD723226D548C00A6C228 /* MSTFileDownloaderOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTFileDownloaderOperation.h; sourceTree = "<group>"; };
+		488CD724226D548C00A6C228 /* MSTFileDownloaderOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTFileDownloaderOperation.m; sourceTree = "<group>"; };
+		488CD727226D564600A6C228 /* MSTFileDownloadToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTFileDownloadToken.h; sourceTree = "<group>"; };
+		488CD728226D564600A6C228 /* MSTFileDownloadToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTFileDownloadToken.m; sourceTree = "<group>"; };
 		488FB5402265BD9100CF570C /* MSTRnLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSTRnLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		488FB5442265BD9100CF570C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488FB54F2265BDF400CF570C /* MSTRnLoader iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSTRnLoader iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,12 +122,6 @@
 		488FB55D2265BDF600CF570C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		488FB55F2265BDF600CF570C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488FB5602265BDF600CF570C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		488FB5662265C50B00CF570C /* MSTHotUpdateDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTHotUpdateDownloader.m; sourceTree = "<group>"; };
-		488FB5672265C50B00CF570C /* MSTHotUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTHotUpdateManager.m; sourceTree = "<group>"; };
-		488FB5682265C50B00CF570C /* MSTHotUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTHotUpdate.m; sourceTree = "<group>"; };
-		488FB5692265C50B00CF570C /* MSTHotUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTHotUpdate.h; sourceTree = "<group>"; };
-		488FB56A2265C50B00CF570C /* MSTHotUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTHotUpdateManager.h; sourceTree = "<group>"; };
-		488FB56B2265C50C00CF570C /* MSTHotUpdateDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTHotUpdateDownloader.h; sourceTree = "<group>"; };
 		488FB5812265CEC100CF570C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		A65BA6880DD7E5DFF2E3D0E4 /* libPods-MSTRnLoader iOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSTRnLoader iOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA882D64B1A21299528CAFCD /* Pods-MSTRnLoader iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSTRnLoader iOS Example.debug.xcconfig"; path = "Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4855AB222271AFA800161669 /* libbz2.tbd in Frameworks */,
 				C51F094B6080E1272F91989F /* libPods-MSTRnLoader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,14 +144,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488FB5832265DE7500CF570C /* MSTRnLoader.framework in Frameworks */,
+				48512E782266D4A5003C0CAF /* CoreGraphics.framework in Frameworks */,
 				6951CDDC4C4E50AE09804BB9 /* libPods-MSTRnLoader iOS Example.a in Frameworks */,
+				4879A83922698D47000E7412 /* MSTRnLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4855AB1922719D0500161669 /* BSDIFF */ = {
+			isa = PBXGroup;
+			children = (
+				4855AB1A22719D6600161669 /* bsdpatch.c */,
+				4855AB1B22719D6600161669 /* bsdpatch.h */,
+				4855AB1E22719E5900161669 /* BSDIFF.h */,
+				4855AB1F22719E5900161669 /* BSDIFF.m */,
+			);
+			path = BSDIFF;
+			sourceTree = "<group>";
+		};
 		488FB5362265BD9100CF570C = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +187,23 @@
 		488FB5422265BD9100CF570C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				488FB5692265C50B00CF570C /* MSTHotUpdate.h */,
-				488FB5682265C50B00CF570C /* MSTHotUpdate.m */,
-				488FB56B2265C50C00CF570C /* MSTHotUpdateDownloader.h */,
-				488FB5662265C50B00CF570C /* MSTHotUpdateDownloader.m */,
-				488FB56A2265C50B00CF570C /* MSTHotUpdateManager.h */,
-				488FB5672265C50B00CF570C /* MSTHotUpdateManager.m */,
+				4855AB102271799E00161669 /* MMALoadersManager.h */,
+				4855AB112271799E00161669 /* MMALoadersManager.m */,
+				4879A8412269C686000E7412 /* MSTFileDownloader.h */,
+				4879A8422269C686000E7412 /* MSTFileDownloader.m */,
+				4879A8452269C8DE000E7412 /* MSTFileDownloaderConfig.h */,
+				4879A8462269C8DE000E7412 /* MSTFileDownloaderConfig.m */,
+				488CD723226D548C00A6C228 /* MSTFileDownloaderOperation.h */,
+				488CD724226D548C00A6C228 /* MSTFileDownloaderOperation.m */,
+				481207D4226ED9C8002F60FB /* MSTWebFileOperation.h */,
+				488CD727226D564600A6C228 /* MSTFileDownloadToken.h */,
+				488CD728226D564600A6C228 /* MSTFileDownloadToken.m */,
+				48043BBE226D970F00EFD063 /* MSTRnLoaderMacros.h */,
+				481207D0226EAAEA002F60FB /* MSTFileDownloaderError.h */,
+				481207D1226EAAEA002F60FB /* MSTFileDownloaderError.m */,
+				4855AB1422717F0A00161669 /* MSTFileManager.h */,
+				4855AB1522717F0A00161669 /* MSTFileManager.m */,
+				4855AB1922719D0500161669 /* BSDIFF */,
 				488FB5442265BD9100CF570C /* Info.plist */,
 			);
 			path = Sources;
@@ -139,6 +216,20 @@
 				488FB5522265BDF400CF570C /* AppDelegate.m */,
 				488FB5542265BDF400CF570C /* ViewController.h */,
 				488FB5552265BDF400CF570C /* ViewController.m */,
+				48512E6C2266D09C003C0CAF /* PWAPIController.h */,
+				48512E6E2266D09C003C0CAF /* PWAPIController.m */,
+				481207D6226EF75E002F60FB /* RNListCell.h */,
+				481207D7226EF75E002F60FB /* RNListCell.m */,
+				48512E6B2266D09C003C0CAF /* PWPersistenceController.h */,
+				48512E6D2266D09C003C0CAF /* PWPersistenceController.m */,
+				481207D9226F03F0002F60FB /* RNListModel.h */,
+				481207DA226F03F0002F60FB /* RNListModel.m */,
+				48512E7A22670A6F003C0CAF /* Model.xcdatamodeld */,
+				48512E712266D1FC003C0CAF /* MSTAPI.h */,
+				48512E722266D1FD003C0CAF /* MSTAPI.m */,
+				48512E742266D3FE003C0CAF /* NSString+Additions.h */,
+				4879A82D22696A79000E7412 /* ar_tagging_select@2x.png */,
+				48512E752266D3FF003C0CAF /* NSString+Additions.m */,
 				488FB5572265BDF400CF570C /* Main.storyboard */,
 				488FB55A2265BDF600CF570C /* Assets.xcassets */,
 				488FB55C2265BDF600CF570C /* LaunchScreen.storyboard */,
@@ -162,6 +253,7 @@
 		8935A58271F6B785779152A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48512E772266D4A5003C0CAF /* CoreGraphics.framework */,
 				488FB5812265CEC100CF570C /* libbz2.tbd */,
 				CF6D3301797C53E018E25756 /* libPods-MSTRnLoader.a */,
 				A65BA6880DD7E5DFF2E3D0E4 /* libPods-MSTRnLoader iOS Example.a */,
@@ -176,9 +268,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488FB56F2265C50C00CF570C /* MSTHotUpdate.h in Headers */,
-				488FB5702265C50C00CF570C /* MSTHotUpdateManager.h in Headers */,
-				488FB5712265C50C00CF570C /* MSTHotUpdateDownloader.h in Headers */,
+				4879A8472269C8DE000E7412 /* MSTFileDownloaderConfig.h in Headers */,
+				4879A8432269C686000E7412 /* MSTFileDownloader.h in Headers */,
+				488CD725226D548C00A6C228 /* MSTFileDownloaderOperation.h in Headers */,
+				481207D2226EAAEA002F60FB /* MSTFileDownloaderError.h in Headers */,
+				488CD729226D564600A6C228 /* MSTFileDownloadToken.h in Headers */,
+				481207D5226ED9C8002F60FB /* MSTWebFileOperation.h in Headers */,
+				4855AB1622717F0A00161669 /* MSTFileManager.h in Headers */,
+				4855AB122271799E00161669 /* MMALoadersManager.h in Headers */,
+				4855AB2022719E5900161669 /* BSDIFF.h in Headers */,
+				4855AB1D22719D6600161669 /* bsdpatch.h in Headers */,
+				48043BBF226D970F00EFD063 /* MSTRnLoaderMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,13 +313,13 @@
 				488FB54B2265BDF400CF570C /* Sources */,
 				488FB54C2265BDF400CF570C /* Frameworks */,
 				488FB54D2265BDF400CF570C /* Resources */,
-				2AD87393B25A538D6B7E68C3 /* [CP] Copy Pods Resources */,
-				488FB5872265DE7500CF570C /* Embed Frameworks */,
+				4879A83D22698D47000E7412 /* Embed Frameworks */,
+				D8DA215FC2B1D6D71C2A50D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				488FB5862265DE7500CF570C /* PBXTargetDependency */,
+				4879A83C22698D47000E7412 /* PBXTargetDependency */,
 			);
 			name = "MSTRnLoader iOS Example";
 			productName = "MSTRnLoader iOS Example";
@@ -277,62 +377,13 @@
 				488FB55E2265BDF600CF570C /* LaunchScreen.storyboard in Resources */,
 				488FB55B2265BDF600CF570C /* Assets.xcassets in Resources */,
 				488FB5592265BDF400CF570C /* Main.storyboard in Resources */,
+				4879A82E22696A79000E7412 /* ar_tagging_select@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AD87393B25A538D6B7E68C3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources.sh",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Zocial.ttf",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A7D5244EF8204B32B3EEE037 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +478,56 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D8DA215FC2B1D6D71C2A50D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources.sh",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/RNVectorIcons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -434,9 +535,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488FB56C2265C50C00CF570C /* MSTHotUpdateDownloader.m in Sources */,
-				488FB56D2265C50C00CF570C /* MSTHotUpdateManager.m in Sources */,
-				488FB56E2265C50C00CF570C /* MSTHotUpdate.m in Sources */,
+				481207D3226EAAEA002F60FB /* MSTFileDownloaderError.m in Sources */,
+				488CD72A226D564600A6C228 /* MSTFileDownloadToken.m in Sources */,
+				4879A8482269C8DE000E7412 /* MSTFileDownloaderConfig.m in Sources */,
+				4879A8442269C686000E7412 /* MSTFileDownloader.m in Sources */,
+				4855AB2122719E5900161669 /* BSDIFF.m in Sources */,
+				4855AB132271799E00161669 /* MMALoadersManager.m in Sources */,
+				488CD726226D548C00A6C228 /* MSTFileDownloaderOperation.m in Sources */,
+				4855AB1722717F0A00161669 /* MSTFileManager.m in Sources */,
+				4855AB1C22719D6600161669 /* bsdpatch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +551,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48512E762266D3FF003C0CAF /* NSString+Additions.m in Sources */,
+				48512E6F2266D09C003C0CAF /* PWPersistenceController.m in Sources */,
 				488FB5562265BDF400CF570C /* ViewController.m in Sources */,
+				481207D8226EF75E002F60FB /* RNListCell.m in Sources */,
+				48512E7C22670A6F003C0CAF /* Model.xcdatamodeld in Sources */,
+				481207DB226F03F0002F60FB /* RNListModel.m in Sources */,
+				48512E702266D09C003C0CAF /* PWAPIController.m in Sources */,
+				48512E732266D1FD003C0CAF /* MSTAPI.m in Sources */,
 				488FB5612265BDF600CF570C /* main.m in Sources */,
 				488FB5532265BDF400CF570C /* AppDelegate.m in Sources */,
 			);
@@ -453,10 +567,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		488FB5862265DE7500CF570C /* PBXTargetDependency */ = {
+		4879A83C22698D47000E7412 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 488FB53F2265BD9100CF570C /* MSTRnLoader */;
-			targetProxy = 488FB5852265DE7500CF570C /* PBXContainerItemProxy */;
+			targetProxy = 4879A83B22698D47000E7412 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -725,6 +839,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48512E7A22670A6F003C0CAF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48512E7B22670A6F003C0CAF /* Model.xcdatamodel */,
+			);
+			currentVersion = 48512E7B22670A6F003C0CAF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 488FB5372265BD9100CF570C /* Project object */;
 }
