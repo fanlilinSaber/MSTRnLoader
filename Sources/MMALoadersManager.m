@@ -19,6 +19,17 @@
 
 @implementation MMALoadersManager
 
++ (NSURL *)bundleURLWithLastPath:(NSString *)lastPath
+{
+    NSString *downloadDir = [MSTFileDownloaderConfig downloadDir];
+    NSString *bundlePath = [downloadDir stringByAppendingPathComponent:lastPath];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:bundlePath isDirectory:NULL]) {
+        NSURL *bundleURL = [NSURL fileURLWithPath:bundlePath];
+        return bundleURL;
+    }
+    return nil;
+}
+
 + (instancetype)sharedManager
 {
     static MMALoadersManager *sharedInstance;

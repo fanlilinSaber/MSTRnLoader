@@ -57,7 +57,7 @@
         if (finalResult.count > 0) {
             NSMutableArray *array = [NSMutableArray new];
             for (MSTRnAppModel *model in finalResult) {
-                model.file = @"http://192.168.0.240/group1/M00/00/4A/wKgA8Fy_9wOAFjCjHdckTJ9y0Y4785.zip";
+//                model.file = @"http://192.168.0.240/group1/M00/00/4A/wKgA8Fy_9wOAFjCjHdckTJ9y0Y4785.zip";
                 RNListModel *new = [[RNListModel alloc] init];
                 new.rnAppInfo = model;
                 [array addObject:new];
@@ -75,7 +75,7 @@
 - (void)handleBarButtonEvent:(UIBarButtonItem *)item
 {
     __weak __typeof__ (self) self_weak_ = self;
-    [[PWAPIController sharedInstance] setToKen:@"207525e1128dc301f2b40eb95c9a71c1"];
+    [[PWAPIController sharedInstance] setToKen:@"a4d6a14e4ca8f8394fb26e3fd633b07b"];
     [[PWAPIController sharedInstance] requestWithPath:@"api/mma/listbyuser" withParams:nil withMethodType:Get withContentType:FormForm withEnabledSign:YES andDataTask:^(NSURLSessionDataTask *dataTask) {
         
     } andSuccess:^(NSString *message, id data) {

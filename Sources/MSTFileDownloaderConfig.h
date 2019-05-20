@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger maxConcurrentDownloads;
 /*&* 每个下载任务超时，以秒为单位，默认 15.0 */
 @property (nonatomic, assign) NSTimeInterval downloadTimeout;
+
++ (NSString *)downloadDir;
+
 @end
 
 NS_ASSUME_NONNULL_END

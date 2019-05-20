@@ -21,5 +21,7 @@
                                   unzProgress:(void(^)(long entryNumber, long total, MSTFileDownloadToken *tokenTask))unzProgressBlock
                                     completed:(void (^)(NSURLResponse *response, NSString *filePath, NSError *error))completedBlock;
 
++ (NSURL *)bundleURLWithLastPath:(NSString *)lastPath;
+
 @end
 
