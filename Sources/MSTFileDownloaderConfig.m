@@ -39,4 +39,11 @@ static MSTFileDownloaderConfig * _defaultDownloaderConfig;
     return config;
 }
 
++ (NSString *)downloadDir
+{
+    NSString *directory = [NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES) firstObject];
+    NSString *downloadDir = [directory stringByAppendingPathComponent:@"reactnativecnlocal"];
+    return downloadDir;
+}
+
 @end

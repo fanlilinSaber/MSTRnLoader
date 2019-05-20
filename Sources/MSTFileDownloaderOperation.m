@@ -170,7 +170,7 @@ typedef NSMutableDictionary<NSString *, id> MSTCallbacksDictionary;
         }
 
         // create file
-        __block NSString *dir = [MSTFileDownloaderOperation downloadDir];
+        __block NSString *dir = [MSTFileDownloaderConfig downloadDir];
         BOOL success = [self.fileManager createDirectoryAtPath:dir];
         if (!success) {
             [self callCompletionBlocksWithError:[NSError errorWithDomain:MSTFileDownloaderErrorDomain code:MSTFileDownloaderErrorCreateFileDirectory userInfo:@{NSLocalizedDescriptionKey : @"file create operation error"}]];
@@ -356,13 +356,6 @@ typedef NSMutableDictionary<NSString *, id> MSTCallbacksDictionary;
             completedBlock(response, filePath, error);
         }
     });
-}
-
-+ (NSString *)downloadDir
-{
-    NSString *directory = [NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES) firstObject];
-    NSString *downloadDir = [directory stringByAppendingPathComponent:@"reactnativecnlocal"];
-    return downloadDir;
 }
 
 @end
