@@ -92,7 +92,7 @@ PODS:
   - SDWebImage (5.0.0):
     - SDWebImage/Core (= 5.0.0)
   - SDWebImage/Core (5.0.0)
-  - SSZipArchive (2.1.5)
+  - SSZipArchive (2.2.2)
   - yoga (0.58.6.React)
   - YTKNetwork (2.0.4):
     - AFNetworking (~> 3.0)
@@ -178,7 +178,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: b65d391f4f570178d657b99a16ec99d09b8656b0
   RNVectorIcons: 6607bd3a30291d0edb56f9bbe7ae411ee2b928b0
   SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
-  SSZipArchive: cefe1364104a0231268a5deb8495bdf2861f52f0
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   yoga: 32d7ef1081951e9a35a4c72a7be797598b138a48
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 

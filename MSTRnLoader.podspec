@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.libraries = "bz2"
   spec.dependency "React"
   spec.dependency "AFNetworking", '~> 3.0'
-  spec.dependency "SSZipArchive"
+  spec.dependency "SSZipArchive", '2.2.2'
 end
