@@ -53,4 +53,9 @@
 }
 
 
+-(void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)(void))completionHandler
+{
+    NSLog(@"1111");
+}
+
 @end

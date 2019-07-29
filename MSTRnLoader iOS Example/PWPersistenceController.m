@@ -205,7 +205,7 @@
     request.sortDescriptors = sortDescriptors;
     request.fetchLimit = fetchLimit;
     [request setFetchOffset:fetchOffset];
-    /*&* 异步查询request 在主线程回调 */
+    // 异步查询request 在主线程回调
     NSAsynchronousFetchRequest *asynFetchRequest = [[NSAsynchronousFetchRequest alloc] initWithFetchRequest:request completionBlock:^(NSAsynchronousFetchResult * _Nonnull result) {
         finalResult(result.finalResult);
     }];
@@ -293,10 +293,16 @@
             if (!object) {
                 return;
             }
+            NSDictionary *attributesByName = object.entity.attributesByName;
+            
             for (NSString *key in allKeys) {
                 id value = dict[key];
                 if ([value isKindOfClass:[NSNull class]]) {
                     value = nil;
+                }
+                NSAttributeDescription *attributeDescription = attributesByName[key];
+                if (attributeDescription.attributeValueClassName && [attributeDescription.attributeValueClassName isEqualToString:@"NSNumber"] && [value isKindOfClass:[NSNumber class]] == NO) {
+                    value = @(0);
                 }
                 NSLog(@"key = %@ , value = %@", key ,dict[key]);
                 [object willChangeValueForKey:key];
@@ -309,7 +315,6 @@
             completion(YES);
         }
         NSLog(@"end createObject");
-    
     });
 }
 
