@@ -31,11 +31,13 @@
 /*&* 已下载文件的大小 */
 @property (assign, nonatomic, readonly) int64_t completedUnitCount;
 /*&* 解压index */
-@property (assign, nonatomic, readwrite) long entryNumber;
+@property (assign, nonatomic, readonly) long entryNumber;
 /*&* 解压文件数量 */
-@property (assign, nonatomic, readwrite) long total;
+@property (assign, nonatomic, readonly) long total;
 /*&* 下载状态 */
-@property (assign, assign, readonly) MSTFileDownloaderState state;
+@property (assign, nonatomic, readonly) MSTFileDownloaderState state;
+/*&* 取消成功后回调 */
+@property (nonatomic, copy) void (^cancelledBlock)(void);
 
 - (instancetype)initWithDownloadOperation:(NSOperation<MSTFileDownloaderOperation> *)downloadOperation
                                       url:(NSURL *)url 
