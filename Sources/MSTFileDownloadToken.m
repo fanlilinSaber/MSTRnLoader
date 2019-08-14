@@ -26,6 +26,8 @@
 @property (assign, nonatomic, readwrite) int64_t completedUnitCount;
 @property (assign, nonatomic, readwrite) int64_t unzTotalUnitCount;
 @property (assign, nonatomic, readwrite) int64_t unzCompletedUnitCount;
+@property (assign, nonatomic, readwrite) long entryNumber;
+@property (assign, nonatomic, readwrite) long total;
 @property (assign, assign, readwrite) MSTFileDownloaderState state;
 @end
 
@@ -63,6 +65,9 @@
             [self.downloadOperation cancel:self.downloadOperationCancelToken];
         }
         self.downloadOperationCancelToken = nil;
+        if (self.cancelledBlock) {
+            self.cancelledBlock();
+        }
     }
 }
 
@@ -117,6 +122,14 @@
         self.total = self.downloadOperation.total;
     }
     return self.total;
+}
+
+- (MSTFileDownloaderState)state
+{
+    if (self.downloadOperation) {
+        self.state = self.downloadOperation.state;
+    }
+    return self.state;
 }
 
 @end

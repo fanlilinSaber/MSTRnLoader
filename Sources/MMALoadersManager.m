@@ -61,7 +61,7 @@
     __block id objectForKey = taskIdentifier ? : url;
     __block MSTFileDownloadToken *downloadToken = [self.allDownloadToken objectForKey:objectForKey];
     @weakify(self);
-    if (!downloadToken) {
+    if (!downloadToken || !downloadToken.downloadOperationCancelToken) {
         downloadToken = [[MSTFileDownloader sharedDownloader] downloadFileWithURL:url ownFileName:ownFileName taskIdentifier:taskIdentifier progress:^(NSProgress *downloadProgress, NSString *taskIdentifier) {
             @strongify(self);
             if (!self) {
@@ -122,6 +122,13 @@
             MST_UNLOCK(self.operationsLock);
         }];
     }
+    
+    downloadToken.cancelledBlock = ^{
+        @strongify(self);
+        MST_LOCK(self.operationsLock);
+        [self.allDownloadToken removeObjectForKey:objectForKey];
+        MST_UNLOCK(self.operationsLock);
+    };
     return downloadToken;
 }
 
