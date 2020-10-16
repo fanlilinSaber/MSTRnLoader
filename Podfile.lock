@@ -129,7 +129,7 @@ DEPENDENCIES:
   - YTKNetwork
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - boost-for-react-native
     - Masonry
@@ -184,4 +184,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c8fe9d660ef6d004a347003111e755f0fa1b1a54
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.9.3

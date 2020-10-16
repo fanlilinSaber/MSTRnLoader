@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "MSTRnLoader"
-  spec.version = "1.0.3"
+  spec.version = "1.0.4"
   spec.summary = "MMA react-native-update"
   spec.homepage = "https://github.com/fanlilinSaber/MSTRnLoader"
   spec.license = { type: 'MIT', file: 'LICENSE' }

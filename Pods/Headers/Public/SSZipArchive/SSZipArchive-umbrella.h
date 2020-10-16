@@ -1,1 +1,1 @@
-/Users/fanlilin/Desktop/ios_pw/MSTRnLoader/Pods/Target Support Files/SSZipArchive/SSZipArchive-umbrella.h
+../../../Target Support Files/SSZipArchive/SSZipArchive-umbrella.h

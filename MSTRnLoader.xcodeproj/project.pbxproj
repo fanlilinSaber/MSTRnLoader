@@ -412,44 +412,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader/Pods-MSTRnLoader-resources.sh",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader/Pods-MSTRnLoader-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader/Pods-MSTRnLoader-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -484,44 +451,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources.sh",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/RNVectorIcons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${PODS_ROOT}/Target Support Files/Pods-MSTRnLoader iOS Example/Pods-MSTRnLoader iOS Example-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -732,6 +666,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = work.MSTRnLoader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -760,6 +695,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = work.MSTRnLoader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

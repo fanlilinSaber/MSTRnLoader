@@ -84,52 +84,32 @@
 
 - (float)progress
 {
-    if (self.downloadOperation) {
-        self.progress = self.downloadOperation.progress;
-        return self.downloadOperation.progress;
-    }
-    return self.progress;
+    return self.downloadOperation.progress;
 }
 
 - (int64_t)totalUnitCount
 {
-    if (self.downloadOperation) {
-        self.totalUnitCount = self.downloadOperation.totalUnitCount;
-        return self.downloadOperation.totalUnitCount;
-    }
-    return self.totalUnitCount;
+    return self.downloadOperation.totalUnitCount;
 }
 
 - (int64_t)completedUnitCount
 {
-    if (self.downloadOperation) {
-        self.completedUnitCount = self.downloadOperation.completedUnitCount;
-    }
-    return self.completedUnitCount;
+    return self.downloadOperation.completedUnitCount;
 }
 
 - (long)entryNumber
 {
-    if (self.downloadOperation) {
-        self.entryNumber = self.downloadOperation.entryNumber;
-    }
-    return self.entryNumber;
+    return self.downloadOperation.entryNumber;
 }
 
 - (long)total
 {
-    if (self.downloadOperation) {
-        self.total = self.downloadOperation.total;
-    }
-    return self.total;
+    return self.downloadOperation.total;
 }
 
 - (MSTFileDownloaderState)state
 {
-    if (self.downloadOperation) {
-        self.state = self.downloadOperation.state;
-    }
-    return self.state;
+    return self.downloadOperation.state;
 }
 
 @end
