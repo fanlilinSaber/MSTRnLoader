@@ -11,7 +11,7 @@
     "@expo/vector-icons": "^10.0.1",
     "link": "^0.1.5",
     "react": "16.6.3",
-    "react-native": "^0.58.6",
+    "react-native": "^0.80.2",
     "react-native-gesture-handler": "^1.1.0",
     "react-native-image-picker": "^0.28.1",
     "react-native-paper": "^2.15.0",
